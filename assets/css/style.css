@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+    transition: all 555ms linear !important;
+    /* border: 1px solid red; */
+}
+
+.bg-yellow {
+    background-color: #F6E300 !important;
+}
+
+.bg-black {
+    background-color: #0C0B0B !important;
+}
+
+.bg-pink {
+    background-color: #FFF7F4 !important;
+}
+
+.accord-para {
+    display: none;
+}
+
+.accord-head {
+    font-size: 18px;
+    max-width: 484px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.accord-para {
+    font-size: 18px;
+    max-width: 866px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.FAQ {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+}
+
+.faq {
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.Accordian {
+    font-size: 36px;
+    max-width: 172px;
+    font-weight: 400;
+    color: #808080;
+    font-family: "Inter", sans-serif;
+}
+
+.Volutpat {
+    font-size: 22px;
+    max-width: 449px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.Amet {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 1288px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Group {
+    max-width: 61px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    font-family: "Inter", sans-serif;
+}
+
+.Nibh {
+    font-size: 16px;
+    max-width: 468px;
+    font-weight: 400;
+    color: #808080;
+    font-family: "Inter", sans-serif;
+}
+
+.Viezh-Robert {
+    font-size: 18px;
+    max-width: 112px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+
+.Poland {
+    font-size: 14px;
+    max-width: 101px;
+    font-weight: 400;
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+}
+
+.no {
+    max-width: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0B132A;
+    font-family: "Rubik", sans-serif;
+}
+
+.slider-mw-340 {
+    font-size: 16px;
+    max-width: 340px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.box {
+    width: 992px;
+    background: #FFF03F;
+}
+
+.box-2 {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #414141;
+    background: linear-gradient(94.88deg, #ffffff0d 0.97%, #ffffff00 103.14%);
+}
+
+.card-1 {
+    width: 540px;
+    padding: 24px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 44px -10px #00000040;
+}
+
+.box-3 {
+    max-width: 498px;
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+}
+
+.box-3:hover {
+    border-color: #128DFF !important;
+}
+
+.box-4 {
+    padding: 12px;
+    border-radius: 10px;
+    width: 400px !important;
+    height: 230px !important;
+    border: 2px solid #DDDDDD;
+}
+
+.box-5 {
+    padding: 12px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 370px !important;
+    height: 270px !important;
+    box-shadow: 0px 1px 4px 0px #0000001A;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.opacity {
+    opacity: 70%;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.Customer {
+    font-size: 35px;
+    font-weight: 500;
+    max-width: 447.81px;
+    font-family: "Rubik", sans-serif;
+}
+
+.stories {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 555px;
+    font-family: "Rubik", sans-serif;
+}
+
+.Our {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 126px;
+    color: #FF5300;
+    font-family: "Poppins", sans-serif;
+}
+
+.Saying {
+    max-width: 462px;
+    font-weight: 600;
+    color: #373737;
+    font-size: 39.06px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Lorem {
+    max-width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    font-family: "Poppins", sans-serif;
+}
+
+.Lincoln-Lipshutz {
+    font-size: 20px;
+    max-width: 157px;
+    font-weight: 500;
+    color: #FF5300;
+    font-family: "Poppins", sans-serif;
+}
+
+.CEO {
+    max-width: 157px;
+    font-weight: 300;
+    color: #7B7B7B;
+    font-size: 12.82px;
+    font-family: "Poppins", sans-serif;
+}
+
+.collaboration {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 190px;
+    color: #FBFDFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.prev {
+    left: 74%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F53838;
+}
+
+.prev:hover svg path {
+    fill: white;
+}
+
+.prev:hover {
+    background-color: #F53838;
+}
+
+.next {
+    right: 18%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    rotate: 180deg;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F53838;
+}
+
+.next:hover svg path {
+    fill: #ffffff;
+}
+
+.next:hover {
+    border: transparent;
+    background-color: #F53838;
+}
+
+.next_1 {
+    top: 55%;
+    left: 85%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    rotate: 180deg;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #373737;
+}
+
+.prev_1 {
+    top: 55%;
+    left: 14%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #373737;
+}
+
+.btn3:hover {
+    color: #F53838;
+    background: #DDD;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #ff4500 !important;
+}
+
+.slick-dots li.slick-active {
+    border-radius: 28px;
+    width: 50px !important;
+    height: 15px !important;
+    opacity: 100% !important;
+    color: #ff4500 !important;
+    background-color: #ff4500 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 18px !important;
+    color: #808080 !important;
+}
+
+.slick-dots {
+    width: 21% !important;
+}
+
+.slideBox:hover img {
+    filter: unset;
+}
+
+.slideBox img {
+    filter: grayscale(100%);
+}
+
+.gap-35 {
+    gap: 35%;
+}
+
+.overflow-slider.slick-list {
+    z-index: -1;
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.overflow-slider .slick-list::after {
+    top: 0px;
+    bottom: 0px;
+    right: 100%;
+    content: " ";
+    width: 4000px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:1920px) {
+    .slick-dots {
+        top: 128%;
+    }
+}
+
+@media (max-width:1029.33px) {
+    .prev {
+        top: 292% !important;
+    }
+
+    .next {
+        top: 292% !important;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: -100% !important;
+    }
+
+    .Lincoln-Lipshutz {
+        font-size: 14px;
+    }
+
+    .CEO {
+        font-size: 9.82px;
+    }
+
+    .ml-30 {
+        margin-left: 10px;
+    }
+
+    .next_1 {
+        display: none !important;
+    }
+
+    .prev_1 {
+        display: none !important;
+    }
+
+    .slick-dots {
+        top: 65% !important;
+    }
+
+    .slick-dots {
+        width: 28% !important;
+    }
+
+    .slick-slide {
+        float: right !important;
+    }
+}
+
+@media (max-width:1440px) {
+    .prev {
+        left: 79%;
+    }
+
+    .next {
+        right: 6%;
+    }
+
+    .box-4 {
+        width: 100%;
+    }
+
+    .next_1 {
+        left: 96%;
+    }
+
+    .prev_1 {
+        left: 1%;
+    }
+}
+
+@media (max-width:1024px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .slick-dots {
+        top: 104% !important;
+    }
+
+    .prev-md-d-n {
+        display: none !important;
+    }
+
+    .next-md-d-n {
+        display: none !important;
+    }
+}
+
+@media (max-width:850px) {
+    .prev {
+        left: 71%;
+    }
+
+    .next {
+        right: 9%;
+    }
+
+    .slick-dots {
+        top: 128%;
+    }
+
+    .slick-dots {
+        width: 28% !important;
+    }
+}
+
+@media (max-width:600px) {
+    .card-1 {
+        width: 100%;
+    }
+
+    .accord-head {
+        font-size: 12px;
+    }
+
+    .accord-para {
+        font-size: 12px;
+    }
+
+    .Customer {
+        font-size: 20px;
+    }
+
+    .Saying {
+        font-size: 25.06px;
+    }
+
+    .slick-dots {
+        width: 69% !important;
+    }
+
+    .slick-dots {
+        top: 128%;
+    }
+
+    .prev {
+        left: 64%;
+    }
+
+    .next {
+        right: 11%;
+    }
+}
+
+@media (max-width:425px) {
+    .prev {
+        left: 56% !important;
+    }
+
+    .next {
+        right: 2%;
+    }
+
+    .slick-dots {
+        top: 140% !important;
+    }
+
+    .slick-dots {
+        width: 48% !important;
+    }
+}
+
+@media (max-width:320px) {
+    .Lincoln-Lipshutz {
+        font-size: 14px;
+    }
+
+    .Viezh-Robert {
+        font-size: 15px;
+    }
+
+    .CEO {
+        font-size: 11px;
+    }
+
+    .slick-dots {
+        width: 57% !important;
+    }
+
+    .slick-dots {
+        top: 128% !important;
+    }
+
+    .prev {
+        left: 61%;
+    }
+}
