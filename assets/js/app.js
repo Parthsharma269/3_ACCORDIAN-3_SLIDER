@@ -45,7 +45,7 @@ $('.overflowSlider').slick({
                 arrows: true,
                 infinite: true,
                 autoplay: false,
-                slidesToShow:1,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
@@ -170,11 +170,11 @@ $('.Slider-slider-2').slick({
 });
 
 $(".parentBox").slick({
-    speed:500,
+    speed: 500,
     dots: false,
     arrows: false,
     infinite: true,
-    autoplaySpeed:1,
+    autoplaySpeed: 1,
     autoplay: true,
     slidesToShow: 9,
     slidesToScroll: 1,
