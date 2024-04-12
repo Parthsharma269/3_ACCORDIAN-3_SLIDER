@@ -75,7 +75,7 @@ $('.overflowSlider').slick({
             }
         },
         {
-            breakpoint: 577,
+            breakpoint: 576,
             settings: {
                 infinite: true,
                 autoplay: false,
@@ -86,7 +86,7 @@ $('.overflowSlider').slick({
             }
         },
         {
-            breakpoint: 321,
+            breakpoint: 320,
             settings: {
                 infinite: true,
                 autoplay: false,
@@ -145,7 +145,7 @@ $('.Slider-slider-2').slick({
             }
         },
         {
-            breakpoint: 577,
+            breakpoint: 576,
             settings: {
                 infinite: true,
                 autoplay: false,
@@ -156,7 +156,7 @@ $('.Slider-slider-2').slick({
             }
         },
         {
-            breakpoint: 321,
+            breakpoint: 320,
             settings: {
                 infinite: true,
                 autoplay: false,
