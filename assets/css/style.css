@@ -444,6 +444,28 @@
     }
 }
 
+@media (max-width:768px) {
+    .box-4 {
+        width: 400px !important;
+    }
+
+    .box-5 {
+        width: 400px !important;
+    }
+
+    .ml-30 {
+        margin-left: 90px !important;
+    }
+
+    .ml-50 {
+        margin-left: 90px !important;
+    }
+
+    .slick-dots {
+        width: 22% !important;
+    }
+}
+
 @media (max-width:500px) {
     .card-1 {
         width: 100%;
