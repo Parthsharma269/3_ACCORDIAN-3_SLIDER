@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
@@ -383,90 +382,23 @@
     gap: 35%;
 }
 
-.overflow-slider.slick-list {
-    z-index: -1;
-    overflow: visible;
-    padding: 0 20% 0 0;
-    position: relative;
-}
-
-.overflow-slider .slick-list::after {
-    top: 0px;
-    bottom: 0px;
-    right: 100%;
-    content: " ";
-    width: 4000px;
-    position: absolute;
-    background-color: #ffffff;
-}
-
 @media (max-width:1920px) {
     .slick-dots {
         top: 128%;
     }
 }
 
-@media (max-width:1029.33px) {
-    .prev {
-        top: 292% !important;
-    }
-
-    .next {
-        top: 292% !important;
-    }
-
-    .slick-dotted.slick-slider {
-        margin-bottom: -100% !important;
-    }
-
-    .Lincoln-Lipshutz {
-        font-size: 14px;
-    }
-
-    .CEO {
-        font-size: 9.82px;
-    }
-
-    .ml-30 {
-        margin-left: 10px;
-    }
-
-    .next_1 {
-        display: none !important;
-    }
-
-    .prev_1 {
-        display: none !important;
-    }
-
-    .slick-dots {
-        top: 65% !important;
-    }
-
-    .slick-dots {
-        width: 28% !important;
-    }
-}
-
 @media (max-width:1440px) {
-    .prev {
-        left: 79%;
-    }
-
-    .next {
-        right: 6%;
-    }
-
-    .box-4 {
-        width: 100%;
+    .slick-dots {
+        top: 128%;
     }
 
     .next_1 {
-        left: 96%;
+        left: 94%;
     }
 
     .prev_1 {
-        left: 1%;
+        left: 2%;
     }
 }
 
@@ -474,118 +406,68 @@
     .box {
         width: 100%;
     }
-}
 
-@media (max-width:768px) {
-    .slick-dots {
-        top: 104% !important;
+    .box-4 {
+        width: 100% !important;
     }
 
-    .prev-md-d-n {
+    .box-5 {
+        width: 100% !important;
+    }
+
+    .next_1 {
         display: none !important;
     }
 
-    .next-md-d-n {
+    .prev_1 {
         display: none !important;
     }
-}
 
-@media (max-width:850px) {
-    .prev {
-        left: 71%;
+    .ml-30 {
+        margin-left: 0;
+    }
+
+    .ml-50 {
+        margin-left: 0;
+    }
+
+    .gap-35 {
+        gap: 21%;
     }
 
     .next {
-        right: 9%;
+        right: 5%;
     }
 
-    .slick-dots {
-        top: 128%;
-    }
-
-    .slick-dots {
-        width: 28% !important;
+    .prev {
+        left: 80%;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     .card-1 {
         width: 100%;
-    }
-
-    .accord-head {
-        font-size: 12px;
-    }
-
-    .accord-para {
-        font-size: 12px;
-    }
-
-    .Customer {
-        font-size: 20px;
-    }
-
-    .Saying {
-        font-size: 25.06px;
-    }
-
-    .slick-dots {
-        width: 69% !important;
-    }
-
-    .slick-dots {
-        top: 128%;
-    }
-
-    .prev {
-        left: 64%;
-    }
-
-    .next {
-        right: 11%;
-    }
-}
-
-@media (max-width:425px) {
-    .prev {
-        left: 56% !important;
-    }
-
-    .next {
-        right: 2%;
-    }
-
-    .slick-dots {
-        top: 140% !important;
-    }
-
-    .slick-dots {
-        width: 48% !important;
     }
 }
 
 @media (max-width:320px) {
-    .Lincoln-Lipshutz {
-        font-size: 14px;
+    .accord-head {
+        font-size: 13px;
     }
 
-    .Viezh-Robert {
-        font-size: 15px;
+    .accord-para {
+        font-size: 13px;
     }
 
-    .CEO {
-        font-size: 11px;
+    .Customer {
+        font-size: 25px;
     }
 
-    .slick-dots {
-        width: 57% !important;
+    .stories {
+        font-size: 13px;
     }
 
-    .slick-dots {
-        top: 128% !important;
-    }
-
-    .prev {
-        left: 61%;
+    .Saying {
+        font-size: 26.06px;
     }
 }

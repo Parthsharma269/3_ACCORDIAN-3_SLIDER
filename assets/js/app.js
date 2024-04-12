@@ -40,12 +40,24 @@ $('.overflowSlider').slick({
     nextArrow: ".next",
     responsive: [
         {
-            breakpoint: 992,
+            breakpoint: 1024,
             settings: {
                 arrows: true,
                 infinite: true,
-                autoplay: true,
-                slidesToShow: 2,
+                autoplay: false,
+                slidesToShow:1,
+                centerMode: true,
+                slidesToScroll: 1,
+                cssEase: "Linear",
+            }
+        },
+        {
+            breakpoint: 993,
+            settings: {
+                arrows: true,
+                infinite: true,
+                autoplay: false,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
@@ -55,8 +67,8 @@ $('.overflowSlider').slick({
             breakpoint: 768,
             settings: {
                 infinite: true,
-                autoplay: true,
-                slidesToShow: 2,
+                autoplay: false,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
@@ -77,7 +89,7 @@ $('.overflowSlider').slick({
             breakpoint: 321,
             settings: {
                 infinite: true,
-                autoplay: true,
+                autoplay: false,
                 slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
@@ -98,40 +110,38 @@ $('.Slider-slider-2').slick({
     nextArrow: ".next_1",
     responsive: [
         {
-            breakpoint: 1029.34,
+            breakpoint: 1024,
             settings: {
-                arrow: true,
+                arrows: false,
                 infinite: true,
-                autoplay: true,
-                slidesToShow: 3,
+                autoplay: false,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
-                centerPadding: "0px",
             }
         },
         {
             breakpoint: 993,
             settings: {
+                arrows: true,
                 infinite: true,
-                autoplay: true,
-                slidesToShow: 2,
+                autoplay: false,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
-                centerPadding: "0px",
             }
         },
         {
             breakpoint: 768,
             settings: {
                 infinite: true,
-                autoplay: true,
-                slidesToShow: 2,
+                autoplay: false,
+                slidesToShow: 1,
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
-                centerPadding: "0px",
             }
         },
         {
@@ -143,7 +153,6 @@ $('.Slider-slider-2').slick({
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
-                centerPadding: "0px",
             }
         },
         {
@@ -155,22 +164,21 @@ $('.Slider-slider-2').slick({
                 centerMode: true,
                 slidesToScroll: 1,
                 cssEase: "Linear",
-                centerPadding: "0px",
             }
         }
     ]
 });
 
 $(".parentBox").slick({
-    speed: 0,
+    speed:500,
     dots: false,
     arrows: false,
     infinite: true,
+    autoplaySpeed:1,
     autoplay: true,
     slidesToShow: 9,
     slidesToScroll: 1,
     cssEase: 'linear',
     pauseOnHover: true,
-    autoplaySpeed: 500,
     variableWidth: true,
 });
